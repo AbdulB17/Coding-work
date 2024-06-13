@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>JS practical</title>
+</head>
+<body>
+    <script>
+        const temperature = promt('what is the temperature')
+
+        clothesCheck = (temp) => {
+            if (temp <=0) {
+                return 'stay inside.';
+            } else if (temp <=30) {
+                return 'wear a coat and a hat.';
+            } else if (temp <=50) {
+                return 'wear a coat.';
+            } else {
+                return 'just pands and vest is fine.';
+            }
+        }
+        alert(clothesCheck(temperature));
+    </script>
+</body>
+</html>
